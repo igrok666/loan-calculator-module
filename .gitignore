@@ -1,0 +1,19 @@
+/bitrix/
+/company/
+/contacts/
+/include/
+/login/
+/news/
+/products/
+/search/
+/services/
+/upload/
+/local/components/
+/local/php_interface/
+/local/modules/progwtf.calc/ -f
+/*.php
+/local/*.rar
+.htaccess
+web.config
+*.iml
+*.xml

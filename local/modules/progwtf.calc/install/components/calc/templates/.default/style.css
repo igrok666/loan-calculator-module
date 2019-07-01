@@ -1,0 +1,68 @@
+.progwft_calc .slidecontainer {
+    width: 100%;
+}
+
+.progwft_calc .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.progwft_calc .slider:hover {
+    opacity: 1;
+}
+
+.progwft_calc .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.progwft_calc .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.progwft_calc .result{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.progwft_calc .result > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.progwft_calc .result > div span{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.progwft_calc .result_table table{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+.progwft_calc .result_table table tr td{
+    text-align: center;
+    border: 1px solid #afafaf;
+}
+
+.progwft_calc .style_input{
+    padding: 5px;
+}
+.progwft_calc .stavka{
+    margin-top: 20px;
+}
